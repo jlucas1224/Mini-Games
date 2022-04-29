@@ -1,0 +1,47 @@
+html {
+    min-height: 100%;
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+
+#ambulancia{
+    height: 90px;
+    position: absolute;
+    bottom: 90px;
+}
+#policia{
+    height: 140px;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.painel{
+    position: absolute;
+    top: 50px;
+    width: 1000px;
+    height: 300px;
+    background: linear-gradient(to bottom, rgb(35, 35, 214), rgb(228, 47, 47));
+    border: 5px solid white;
+    border-radius: 50px;
+}
+.caixa{
+    background-color: white;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+}
+.caixa:hover{
+    cursor: pointer;
+}
+
+.btn{
+    position: absolute;
+}

@@ -1,0 +1,43 @@
+body{
+    background-image: url('imagens/bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.mosca1{
+    height: 50px;
+    width: 50px;
+}
+.mosca2{
+    height: 70px;
+    width: 70px;
+}
+.mosca3{
+    height: 90px;
+    width: 90px;
+}
+
+.ladoA{
+    transform: scaleX(1);
+}
+.ladoB{
+    transform: scaleX(-1);
+}
+
+.painel{
+    left: 0px;
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: solid 1px white;
+    background-color: white;
+    opacity: 0.7;
+}
+.vidas{
+    float: left;
+}
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}

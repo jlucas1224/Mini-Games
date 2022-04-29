@@ -1,0 +1,12 @@
+body{
+    background-image: url('imagens/background-minigames.jpg');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.select-minigame{
+  display: inline-block;
+  padding: 160px 110px 100px 110px;
+}
